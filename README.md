@@ -8,4 +8,5 @@ In addition to these location-specific scripts, there are metric-specific predic
 Finally, the script "V2_Predictive_Tool.m" is a full implementation of the predictive tool, providing regional estimates for all of the injury metrics. Given the impact's location, PLV and PAV, this script calls each metric-specific predictive tool - "MPS_Predictive", "MPS95_Predictive", "MPSR95_Predictive", "MPSRxSR95_Predictive" and "VMS95_Predictive". Each of these tools then apply the corresponding location-specific script ( e.g., "MPS_FRONT_HIGH.m", "MPS95_FRONT_HIGH.m", etc.). The output is a table containing regional estimates of all injury metrics for the specified impact case.
 
 
-**Note:** An error was identified in the setup of the synthetic side low impact case simulations. As a result, the derived regression equations and corresponding location-specific scripts for this impact location are not reliable.
+
+(**Note:** An error was identified in the setup of the synthetic side low impact case simulations. As a result, the derived regression equations and corresponding location-specific scripts for this impact location are not reliable.)
